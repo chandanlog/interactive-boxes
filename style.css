@@ -1,0 +1,99 @@
+body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .bundle-option {
+      border: 2px solid #ccc;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .bundle-option.selected {
+      border-color: #0a8f65;
+      background-color: #eafaf3;
+    }
+
+    .bundle-option input[type="radio"] {
+      float: left;
+      margin-right: 10px;
+    }
+
+    .bundle-header {
+      font-weight: bold;
+      color: #0a8f65;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 20px;
+    }
+
+    .discount {
+      float: right;
+      font-weight: bold;
+      color: gray;
+      margin-top: 13px;
+    }
+
+    .popular {
+      color: #0a8f65;
+      font-weight: bold;
+      position: absolute;
+      top: 10px;
+      right: 15px;
+    }
+
+    .selectors {
+      margin-top: 10px;
+      display: none;
+    }
+
+    .selectors select {
+      margin: 5px;
+      padding: 5px;
+      width: 80px;
+    }
+
+    .footer {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #0a8f65;
+      text-align: center;
+    }
+
+    .total {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #0a8f65;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      display: block;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: #0c6f50;
+    }

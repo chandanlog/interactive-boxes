@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Interactive & Boxes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+    <div class="bundle-header">Bundle & Save</div>
+
+    <div class="bundle-option" data-id="1">
+      <input type="radio" name="bundle" value="1">
+      1 Pair - DKK 195.00 <span class="discount">50% OFF</span>
+      <div class="selectors" id="pair1">
+        #1 Size:
+        <select><option>S</option><option>M</option><option>L</option></select>
+        Colour:
+        <select><option>Black</option><option>Blue</option><option>White</option></select><br>
+        #2 Size:
+        <select><option>S</option><option>M</option><option>L</option></select>
+        Colour:
+        <select><option>Black</option><option>Blue</option><option>White</option></select>
+      </div>
+    </div>
+
+    <div class="bundle-option selected" data-id="2">
+      <input type="radio" name="bundle" value="2" checked>
+      2 Pair - <strong>DKK 345.00</strong> <span class="discount"><s>DKK 460.00</s></span>
+      <div class="popular">Most Popular</div>
+      <div class="selectors" id="pair2" style="display: block;">
+        #1 Size:
+        <select><option>S</option><option>M</option><option>L</option></select>
+        Colour:
+        <select><option>Black</option><option>Blue</option><option>White</option></select><br>
+        #2 Size:
+        <select><option>S</option><option>M</option><option>L</option></select>
+        Colour:
+        <select><option>Black</option><option>Blue</option><option>White</option></select>
+      </div>
+    </div>
+
+    <div class="bundle-option" data-id="3">
+      <input type="radio" name="bundle" value="3">
+      3 Pair - DKK 528.00 <span class="discount">60% OFF</span>
+      <div class="selectors" id="pair3">
+        #1 Size:
+        <select><option>S</option><option>M</option><option>L</option></select>
+        Colour:
+        <select><option>Black</option><option>Blue</option><option>White</option></select><br>
+        #2 Size:
+        <select><option>S</option><option>M</option><option>L</option></select>
+        Colour:
+        <select><option>Black</option><option>Blue</option><option>White</option></select>
+      </div>
+    </div>
+
+    <div class="footer">Free 2 Day Shipping</div>
+    <div class="total">Total: DKK <span id="total">345.00</span></div>
+
+    <button>Add to Cart</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
